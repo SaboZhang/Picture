@@ -42,20 +42,20 @@
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "name": "Windows PowerShell",
                 "commandline": "powershell.exe",
+                "startingDirectory": "./",
                 "hidden": false
             },
             {
                 // Make changes here to the powershell.exe profile
                 "guid": "{2e6d71e4-77a7-4126-abd8-407b6e54f9dd}",
-                "name": "bash",
-                "tabTitle": "bash",
-                "icon":"C:\\Windows\\Web\\git.png",
-                "commandline": "bash.exe",
+                "name": "Git Bash",
+                "tabTitle": "Git Bash",
+                "icon":"D:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+                "commandline": "D:\\Program Files\\Git\\bin\\bash.exe",
                 "closeOnExit": true,
                 "hidden": false,
-                "snapOnInput": true, // 捕捉输入
                 // "startingDirectory": "%USERPROFILE%"
-                "startingDirectory": "D:\\code"
+                "startingDirectory": "E:\\coding"
               },
             {
                 // Make changes here to the cmd.exe profile.
@@ -70,6 +70,41 @@
                 "hidden": false,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "hidden": false,
+                "name": "Ubuntu-20.04",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                // Make changes here to the cmd.exe profile.
+                "guid": "{c3d5471c-9c28-f6d8-90fd-b54d49dab98f}",
+                "name": "阿里云",
+                "tabTitle": "阿里云",
+                "icon": "C:\\Windows\\ICON\\阿里云.png",
+                "commandline": "ssh aliyun",
+                "hidden": false
+            },
+            {
+                "guid": "{55ca431a-3a87-5fb3-83cd-11ececc031d2}",
+                "hidden": false,
+                "icon": "file:///c:/users/Rick/pictures/icons/kali-menu.png",
+                "name": "Win-KeX",
+                "commandline": "wsl -d kali-linux kex --wtstart -s",
+                "startingDirectory" : "//wsl$/kali-linux/home/rick"
+            },
+            {
+                "guid": "{46ca431a-3a87-5fb3-83cd-11ececc031d2}",
+                "hidden": false,
+                "name": "kali-linux",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{c6eaf9f4-32a7-5fdc-b5cf-066e8a4b1e40}",
+                "hidden": false,
+                "name": "Ubuntu-18.04",
+                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
