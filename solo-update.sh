@@ -1,6 +1,5 @@
 #!/bin/bash
 # Solo docker 升级脚本&删除旧的镜像脚本
-# Author:cuijianzhe
 [ -f /etc/init.d/functions ] && . /etc/init.d/functions
 
 start_time=`date +'%Y-%m-%d %H:%M:%S'`
